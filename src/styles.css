@@ -52,6 +52,36 @@ span {
     color: crimson;
 }
 
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.history {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.display-history {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.display-history button {
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px 0px gray;
+}
+
 body {
     height: 100vh;
     display: flex;
